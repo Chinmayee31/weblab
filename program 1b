@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>
+            Chess Board
+        </title>
+        <link rel="stylesheet" href="prg1b.css">
+    </head>
+    <body>
+        <h1 align="center">Chess Board</h1>
+        <table align="center" border="2">
+            <tr>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+            </tr>
+            <tr>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+            </tr>
+            <tr>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+            </tr>
+            <tr>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+            </tr>
+            <tr>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+            </tr>
+            <tr>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+            </tr>
+            <tr>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+            </tr>
+            <tr>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+                <td id="white"></td>
+                <td id="black"></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+-------------------------------------------------------------------------------------------------------
+
+table{
+    border-color: brown;
+}
+td{
+    height: 2cm;
+    width: 2cm;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+#black{background-color: black;}
+#white{background-color: white;}
