@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            VIBGYOR IMPLEMNTATION
+        </title>
+        <link rel="stylesheet" href="prg1.css">
+    </head>
+    <body>
+        <h1>VIBGYOR IMPLEMNTATION</h1>
+        <table align="center">
+            <tr>
+                <td id="one"></td>
+                <td id="two"></td>
+                <td id="three"></td>
+                <td id="four"></td>
+                <td id="five"></td>
+                <td id="six"></td>
+                <td id="seven"></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+td{
+    height: 300px;
+    width: 150px;
+    border: 6px solid white;
+}
+#one{
+    background-color: #9400D3;
+}
+#two{
+    background-color: #4B0082;
+}
+#three{
+    background-color: #0000FF;
+}
+#four{
+    background-color: #00FF00;
+}
+#five{
+    background-color: #FFFF00;
+}
+#six{
+    background-color: #FF7F00;
+}
+#seven{
+    background-color: #FF0000;
+}
+
