@@ -8,7 +8,7 @@
             {
                 var str=document.forms["frm1"].inputstring.value;
                 var lines=str.split("\n");
-                document.forms["frm1"].linecount.value=lines;
+                document.forms["frm1"].linecount.value=lines.length;
                 document.forms["frm1"].wordcount.value=str.split(/\s/).length;
                 document.forms["frm1"].charactercount.value=str.length;
             }
